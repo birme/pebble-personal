@@ -1,6 +1,6 @@
 simply.scrollable(false);
-simply.title('Welcome!');
-simply.body('I am your personal Pebble assistant', true);
+simply.text( {title: 'Welcome Jonas!', body: 'I am your personal Pebble assistant' } );
+
 simply.on('singleClick', function(e) {
 
 	navigator.geolocation.getCurrentPosition(function(pos) {
